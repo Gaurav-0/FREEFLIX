@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+* {
+    box-sizing:border-box;
+  }
+
+.container {
+    background-image:url("GOT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    width:100%;
+    margin:auto;
+}
+
+header kbd {
+    color: #e50914;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: normal;
+    margin-left:1.2rem;
+}
+
+header .redbutton {
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    text-decoration : none;
+    margin-right: 1.2rem;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
+
+header .redbutton:hover {
+    
+}
+
+/* ------------------- Main Body ----------------------- */
+
+.main-body-container .tagline_1 {
+    text-align: center;
+    font-size:500%;
+    margin-top: 7%;
+    color:#ffffff;
+}
+
+.main-body-container .tagline {
+    text-align: center;
+    font-size:30px;
+    word-spacing: 10px;
+    color:#ffffff;
+}
+
+.main-body-container .cont-button {
+    text-align: center;
+}
+
+.main-body-container .cont-button button {
+    font-size:30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: none;
+    background-color: #e50914;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.main-body-container .cont-button button a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.main-body-container .cp-code {
+    text-align: center;
+    font-size:200%;
+    word-spacing: 10px;
+    color:#ffffff;
+}
+
+.main-body-container {
+    border-bottom: 10px solid #333333;
+    height:auto;
+    width:100%;
+    margin:auto;
+}
+/* ------------------------- Step Container ----------------------- */
+
+.step-container {
+    border-bottom: 10px solid #333333;
+    background-color: #222;
+    height:auto;
+    width:100%;
+    margin:auto;
+}
+.step {
+    display:inline-block;
+}
+
+.step img {
+    height:auto;
+    width:30em;
+}
+
+.step #step1,#step2,#step3,#step4 {
+    display:inline-block;
+}
+
+.step #img-info {
+    font-size: 53px;
+    text-align: center;
+    height:auto;
+    width:70px;
+    border: 2px solid #ffffff;
+    background-color: #e50914;
+    color:#ffffff;
+    border-radius: 50%;
+    margin-left: 4em;
+}
+
+/* ------------------ FOOTER ------------------------ */
+
+footer {
+    background-color:black;
+    color:white;
+}
+
+footer kbd {
+    margin-left:7em;
+}
+
+footer .f-menu_1,.f-menu_2,.f-menu_3{
+    display:inline-block;
+}
+footer .s-handel {
+    text-align: center;
+    height:auto;
+    width:100%;
+}
+
+.s-handel i {
+    font-size: 40px;
+}
+
+footer kbd:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+footer {
+    height:auto;
+    width:100%;
+    margin:auto;
+}
